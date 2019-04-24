@@ -1,0 +1,65 @@
+#curve_chart{
+  position: absolute;
+  left: 120px;
+  top: 140px;
+  width: 1500px;
+  height: 500px;
+}
+
+ul.annual_costs {
+  position: absolute;
+  left: 280px;
+  top: 620px;
+  font-size: 18px;
+  color: #000;
+}
+
+p.is_elec_heating{
+  position: absolute;
+  left: 650px;
+  top: 620px;
+  font-size: 18px;
+  color: #000;
+}
+
+p.dysfunction{
+  position: absolute;
+  left: 1110px;
+  top: 620px;
+}
+p.dysfunction#yes_dysfunction_detected{
+  color: red;
+  font-size: 18px;
+}
+p.dysfunction#no_dysfunction_detected{
+  color: green;
+  font-size: 18px;
+}
+@media (max-width:768px) {
+  ul.annual_costs {
+    position: absolute;
+    left: 30px;
+    top: 670px;
+    font-size: 18px;
+    color: #000;
+  }
+  p.is_elec_heating{
+    position: absolute;
+    left: 55px;
+    top: 750px;
+    font-size: 18px;
+    color: #000;
+  }
+  p.dysfunction{
+    position: absolute;
+    left: 55px;
+    top: 800px;
+  }
+  #curve_chart{
+    position: absolute;
+    left: -50px;
+    top: 200px;
+    width: 100%;
+    height: 500px;
+  }
+}
